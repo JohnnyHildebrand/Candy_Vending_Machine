@@ -13,6 +13,12 @@ namespace Candy_Vending_Machine.Controllers
 							 _logger = logger;
 							 }
 
+					public IActionResult Candy()
+							 {
+							 return View();
+							 }
+
+
 					public IActionResult Index()
 							 {
 							 return View();
